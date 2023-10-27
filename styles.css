@@ -1,14 +1,28 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: left; /* Zmieniamy wyśrodkowanie na lewy margines */
+    text-align: left;
+    background-color: #f0f0f0; /* Domyślne tło dla dolnej części strony */
+    margin: 0;
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #000; /* Czarne tło dla górnej części strony */
     padding: 20px;
+    color: #fff; /* Biały kolor tekstu */
+    text-align: center;
 }
 
 h1 {
-    color: #333;
     margin: 0;
+}
+
+.widget-container {
+    display: flex;
+    justify-content: center;
+}
+
+.widget {
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
 }
