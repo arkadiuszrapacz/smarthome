@@ -13,6 +13,10 @@
         .widget {
             margin: 10px;
         }
+        .chart {
+            display: inline-block; /* Ustawienie wykresów obok siebie */
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -32,16 +36,15 @@
             <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/widgets/734103"></iframe>
         </div>
     </div>
-	<div class="charts-container">
-		<!-- Pierwszy wykres -->
-		<div class="chart">
-			<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
-		</div>
-		
-		<!-- Drugi wykres -->
-		<div class="chart">
-			<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
-        </div>
-	</div>
+
+    <!-- Pierwszy wykres -->
+    <div class="chart">
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </div>
+    
+    <!-- Drugi wykres -->
+    <div class="chart">
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </div>
 </body>
 </html>
