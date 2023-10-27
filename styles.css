@@ -9,7 +9,6 @@ header {
     padding: 20px;
     color: #fff;
     text-align: center;
-	margin-bottom: 20px;
 }
 
 h1 {
@@ -20,6 +19,7 @@ h1 {
     display: flex;
     justify-content: center;
 	margin: auto;
+	margin-top: 20px;
 }
 
 .widget {
@@ -32,6 +32,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	margin: auto;
+	margin-top: 20px;
 }
 
 .charts {
