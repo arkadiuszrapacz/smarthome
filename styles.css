@@ -55,5 +55,9 @@ h1 {
 }
 
 .chart {
-	margin: 20px;
+	margin-right: 20px;
+}
+
+.chart:last-child {
+	margin-right: 0;
 }
