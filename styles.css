@@ -18,6 +18,7 @@ h1 {
 .widget-container {
     display: flex;
     justify-content: center;
+	margin: auto;
 }
 
 .widget {
