@@ -5,11 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Home Detectors</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .widget-container {
+            display: flex;
+            justify-content: center;
+        }
+        .widget {
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Smart Home Detectors</h1>
     </header>
-	<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/widgets/734102"></iframe>
+    
+    <!-- Kontener dla widgetów -->
+    <div class="widget-container">
+        <!-- Pierwszy widget -->
+        <div class="widget">
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/widgets/734102"></iframe>
+        </div>
+        
+        <!-- Drugi widget -->
+        <div class="widget">
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2308946/widgets/734103"></iframe>
+        </div>
+    </div>
 </body>
 </html>
