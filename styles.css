@@ -19,7 +19,6 @@ h1 {
     display: flex;
     justify-content: center;
 	margin: auto;
-	margin-top: 20px;
 }
 
 .widget {
@@ -32,10 +31,9 @@ h1 {
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	margin-top: 20px;
 }
 
-.charts {
+.chart {
 	margin: 10px;
 	background-color: #fff;
 	padding: 10px;
@@ -55,12 +53,4 @@ h1 {
 	right: 10px;
 	color: #fff;
 	test-decoration: none;
-}
-
-.chart {
-	margin-right: 20px;
-}
-
-.chart:last-child {
-	margin-right: 0;
 }
